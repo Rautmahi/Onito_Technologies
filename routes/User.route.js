@@ -1,6 +1,6 @@
 const express = require("express")
 const {UserModel}=require("../models/User.model")
-
+require("dotenv").config()
 const userRouter=express.Router()
 
 
